@@ -1,0 +1,125 @@
+# Schedule data. Edit topics/readings/due here once — both section views render from it.
+# mw = Section 001 (Mon/Wed).  tr = Sections 002 & 003 (Tue/Thu).
+# DATES ASSUME: first day Mon Aug 31 2026, Labor Day Mon Sep 7 observed,
+# MW makeup meeting Mon Nov 9. VERIFY against the academic calendar.
+
+- n: 1
+  mw: "Mon Aug 31"
+  tr: "Tue Sep 1"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 2
+  mw: "Wed Sep 2"
+  tr: "Thu Sep 3"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 3
+  mw: "Wed Sep 9"
+  tr: "Tue Sep 8"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 4
+  mw: "Mon Sep 14"
+  tr: "Thu Sep 10"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 5
+  mw: "Wed Sep 16"
+  tr: "Tue Sep 15"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 6
+  mw: "Mon Sep 21"
+  tr: "Thu Sep 17"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 7
+  mw: "Wed Sep 23"
+  tr: "Tue Sep 22"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 8
+  mw: "Mon Sep 28"
+  tr: "Thu Sep 24"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 9
+  mw: "Wed Sep 30"
+  tr: "Tue Sep 29"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 10
+  mw: "Mon Oct 5"
+  tr: "Thu Oct 1"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 11
+  mw: "Wed Oct 7"
+  tr: "Tue Oct 6"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 12
+  mw: "Mon Oct 12"
+  tr: "Thu Oct 8"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 13
+  mw: "Wed Oct 14"
+  tr: "Tue Oct 13"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 14
+  mw: "Mon Oct 19"
+  tr: "Thu Oct 15"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 15
+  mw: "Wed Oct 21"
+  tr: "Tue Oct 20"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 16
+  mw: "Mon Oct 26"
+  tr: "Thu Oct 22"
+  topic: "**MIDTERM**"
+  reading: ""
+  due: ""
+- n: 17
+  mw: "Wed Oct 28"
+  tr: "Tue Oct 27"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 18
+  mw: "Mon Nov 2"
+  tr: "Thu Oct 29"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 19
+  mw: "Wed Nov 4"
+  tr: "Tue Nov 3"
+  topic: "TBD"
+  reading: ""
+  due: ""
+- n: 20
+  mw: "Mon Nov 9"
+  tr: "Thu Nov 5"
+  topic: "TBD"
+  reading: ""
+  due: ""

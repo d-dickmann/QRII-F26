@@ -38,6 +38,59 @@ table {
   }
 }
 
+// --- Schedule section toggle -------------------------------------------
+// CSS-only: hidden radios drive which date column shows. No JavaScript, so
+// it works even if scripts are blocked. The radios must stay siblings of
+// .sched-toggle and .sched-table for the ~ selectors below to reach them.
+
+.sched {
+  input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.sched-toggle {
+  display: flex;
+  gap: 0;
+  margin-bottom: $spacing-unit * 0.5;
+
+  label {
+    cursor: pointer;
+    padding: 7px 16px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    line-height: 1.3;
+    user-select: none;
+
+    &:first-of-type { border-radius: 4px 0 0 4px; }
+    &:last-of-type  { border-radius: 0 4px 4px 0; border-left: 0; }
+
+    &:hover { background: #f2f2f2; }
+  }
+}
+
+// Selected pill
+#sec-mw:checked ~ .sched-toggle label[for="sec-mw"],
+#sec-tr:checked ~ .sched-toggle label[for="sec-tr"] {
+  background: $brand-color;
+  border-color: $brand-color;
+  color: #fff;
+}
+
+// Show only the matching date
+#sec-mw:checked ~ .sched-table .d-tr { display: none; }
+#sec-tr:checked ~ .sched-table .d-mw { display: none; }
+
+.nowrap { white-space: nowrap; }
+
+// Keyboard focus needs to be visible since the real input is hidden
+.sched input[type="radio"]:focus-visible ~ .sched-toggle label {
+  outline: 2px solid $brand-color;
+  outline-offset: 2px;
+}
+
 // --- Headings -----------------------------------------------------------
 
 h1, h2, h3 {
