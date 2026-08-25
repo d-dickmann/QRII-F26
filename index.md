@@ -11,7 +11,9 @@ title: Home
 |---|---|
 | **Instructor** | Dorothy Dickmann |
 | **Email** | [ddickmann@uaustin.org](mailto:ddickmann@uaustin.org) |
-| **Office Hours** | Tuesday 10:30–12:00, Room 214<br>Thursday 13:00–14:30, Room 214 |
+| **Office Hours** | Tuesday 10:30–12:00 · Room 214 |
+| | Thursday 13:00–14:30 · Room 214 |
+| | Otherwise, by appointment |
 
 | Section | Meets | Classroom |
 |---|---|---|
@@ -23,7 +25,7 @@ title: Home
 
 ## Quick links
 
-- [Syllabus](syllabus.pdf) — course policies, grading, and expectations
+- [Syllabus](syllabus.pdf){:target="_blank" rel="noopener"} — course policies, grading, and expectations
 - [Schedule](schedule.html) — what we're doing each meeting, and what to read
 - [Assignments](assignments.html) — homework and due dates
 - [Materials](materials.html) — software, texts, and data
