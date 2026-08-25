@@ -38,5 +38,3 @@ The course meets twice a week for ten weeks — **20 meetings**. Sections meet e
 |---|---|
 | First day of class | _TBD_ |
 | Midterm | Meeting 16 — _TBD_ |
-| Project due | _TBD_ |
-| Final interviews | Final exam period — _TBD_ |
