@@ -23,13 +23,16 @@ title: Home
 
 ---
 
+## Welcome to Quantitative Reasoning!
+
+This course is anchored on the question: *How do I make sense of data the world throws at me?*
+
+We will begin with the basics of data and probability and build to a final research project where you will use real data to answer interesting questions. We will move quickly and leverage the latest technology. Assigned homework and reading will extend the work we do in class. 
+
+
 ## Quick links
 
-- [Syllabus](syllabus.pdf){:target="_blank" rel="noopener"} — course policies, grading, and expectations
-- [Schedule](schedule.html) — what we're doing each meeting, and what to read
-- [Assignments](assignments.html) — homework and due dates
-- [Materials](materials.html) — software, texts, and data
-
-## About this course
-
-_TBD — the one-paragraph version of what this course is and why it matters._
+- [Syllabus](syllabus.pdf){:target="_blank" rel="noopener"} 
+- [Schedule](schedule.html)
+- [Assignments](assignments.html)
+- [Materials](materials.html)
