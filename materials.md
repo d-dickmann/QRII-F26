@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Resources
+title: Materials
 ---
 
-# Resources
+# Materials
 
 ## Textbook
 

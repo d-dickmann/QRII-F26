@@ -5,29 +5,29 @@ title: Home
 
 # Quantitative Reasoning II
 
-**INF 1220 · Fall 2026 · The University of Austin**
+**INF 1220 · 3 credits · Fall 2026 · University of Austin**
 
-Instructor: **Dorothy Dickmann** — [ddickmann@uaustin.org](mailto:ddickmann@uaustin.org)
+| | |
+|---|---|
+| **Instructor** | Dorothy Dickmann |
+| **Email** | [ddickmann@uaustin.org](mailto:ddickmann@uaustin.org) |
+| **Office Hours** | _TBD_ |
+
+| Section | Meets | Classroom |
+|---|---|---|
+| 001 | MW 11:30–12:45 | Scarbrough 311 |
+| 002 | TR 15:15–16:30 | Scarbrough 354 |
+| 003 | TR 08:30–09:45 | Scarbrough 311 |
 
 ---
-
-> **This webpage is the authoritative source for the course.** The schedule, assignments, and due dates live here and may change during the term. Check it regularly.
 
 ## Quick links
 
 - [Syllabus](syllabus.pdf) — course policies, grading, and expectations
 - [Schedule](schedule.html) — what we're doing each meeting, and what to read
 - [Assignments](assignments.html) — homework and due dates
-- [Resources](resources.html) — software, texts, and data
+- [Materials](materials.html) — software, texts, and data
 
 ## About this course
 
 _TBD — the one-paragraph version of what this course is and why it matters._
-
-## Office hours
-
-_TBD_
-
-## Announcements
-
-_Nothing yet._

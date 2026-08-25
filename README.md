@@ -11,8 +11,7 @@ The website is published with GitHub Pages from the `main` branch. Editing a `.m
 | `index.md` | Home page |
 | `schedule.md` | Meeting-by-meeting schedule |
 | `assignments.md` | Homework |
-| `project.md` | Research project |
-| `resources.md` | Textbook, software, links |
+| `materials.md` | Textbook, software, links |
 | `_config.yml` | Site title, theme, and nav bar order |
 | `slides/` | Lecture slides (PDF) |
 | `exercises/` | Homework and in-class exercises (PDF) |

@@ -1,12 +1,12 @@
 title: Quantitative Reasoning II
-description: Fall 2026 · INF 1220 · The University of Austin
+description: Fall 2026 · INF 1220 · University of Austin
 theme: minima
 
 # Pages shown in the top navigation bar, in this order.
 header_pages:
   - schedule.md
   - assignments.md
-  - resources.md
+  - materials.md
 
 # slides/, exercises/, data/, and readings/ are intentionally NOT excluded —
 # they must be published so that links to those files work.
