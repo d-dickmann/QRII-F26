@@ -9,8 +9,7 @@ header_pages:
   - project.md
   - resources.md
 
-# Don't treat material folders as site content.
+# slides/, exercises/, data/, and readings/ are intentionally NOT excluded —
+# they must be published so that links to those files work.
 exclude:
-  - data/
-  - readings/
   - README.md
