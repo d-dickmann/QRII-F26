@@ -1,0 +1,57 @@
+---
+# Front matter is required (even though it's empty) so Jekyll compiles this file.
+---
+
+// Site typography. These override minima's defaults and must be defined
+// BEFORE the @import below, or they won't take effect.
+
+$base-font-family: Georgia, "Iowan Old Style", "Times New Roman", Times, serif;
+$base-font-size:   18px;
+$base-line-height: 1.65;
+
+// A little wider than minima's 800px default, so the schedule table
+// has room to breathe.
+$content-width:    860px;
+
+@import "minima";
+
+// --- Table polish -------------------------------------------------------
+// This site is table-heavy (schedule, assignments), so make them readable.
+
+table {
+  width: 100%;
+  margin-bottom: $spacing-unit;
+
+  th, td {
+    padding: 8px 12px;
+    vertical-align: top;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  // Wide tables scroll inside themselves instead of breaking the page.
+  @media screen and (max-width: 600px) {
+    display: block;
+    overflow-x: auto;
+  }
+}
+
+// --- Headings -----------------------------------------------------------
+
+h1, h2, h3 {
+  line-height: 1.25;
+}
+
+h2 {
+  margin-top: $spacing-unit;
+}
+
+// --- Blockquote ---------------------------------------------------------
+// Used on the home page for the "this page is authoritative" callout.
+
+blockquote {
+  font-style: normal;
+  letter-spacing: normal;
+}
