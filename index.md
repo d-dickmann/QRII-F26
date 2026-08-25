@@ -15,9 +15,9 @@ Instructor: **Dorothy Dickmann** — [ddickmann@uaustin.org](mailto:ddickmann@ua
 
 ## Quick links
 
+- [Syllabus](syllabus.pdf) — course policies, grading, and expectations
 - [Schedule](schedule.html) — what we're doing each meeting, and what to read
 - [Assignments](assignments.html) — homework and due dates
-- [Project](project.html) — the research project
 - [Resources](resources.html) — software, texts, and data
 
 ## About this course

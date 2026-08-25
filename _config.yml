@@ -6,7 +6,6 @@ theme: minima
 header_pages:
   - schedule.md
   - assignments.md
-  - project.md
   - resources.md
 
 # slides/, exercises/, data/, and readings/ are intentionally NOT excluded —

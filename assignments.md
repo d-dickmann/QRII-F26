@@ -30,16 +30,3 @@ _TBD_
 ## Late work
 
 _TBD — see the syllabus for the grace policy._
-
----
-
-# How your grade is calculated
-
-| Component | Weight |
-|---|---|
-| Homework | 10% |
-| Midterm | 45% |
-| Project | 40% |
-| Engagement | 5% |
-
-_The project's internal breakdown is described on the [Project](project.html) page._
