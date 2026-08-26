@@ -1,125 +1,78 @@
-# Schedule data. Edit topics/readings/due here once — both section views render from it.
-# mw = Section 001 (Mon/Wed).  tr = Sections 002 & 003 (Tue/Thu).
-# DATES ASSUME: first day Mon Aug 31 2026, Labor Day Mon Sep 7 observed,
-# MW makeup meeting Mon Nov 9. VERIFY against the academic calendar.
+# Schedule data.
+#
+# 'content' is the single source of truth for topics — edit a topic ONCE here
+# and it updates in both section views.
+#
+# 'mw' (Section 001, Mon/Wed) and 'tr' (Sections 002 & 003, Tue/Thu) map each
+# meeting date to a content number, or to a special: MIDTERM, REVIEW, CLINIC.
+#
+# Section 001 loses Labor Day (Mon Sep 7) and makes it up Mon Nov 9, so it runs
+# one meeting behind 002/003 for most of the term. That is why 002/003 get a
+# REVIEW slot before the midterm and 001 gets a CLINIC slot after it — the two
+# patterns cover identical examinable content.
+#
+# DATES ASSUME first day of class Mon Aug 31 2026. Verify against the academic calendar.
 
-- n: 1
-  mw: "Mon Aug 31"
-  tr: "Tue Sep 1"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 2
-  mw: "Wed Sep 2"
-  tr: "Thu Sep 3"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 3
-  mw: "Wed Sep 9"
-  tr: "Tue Sep 8"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 4
-  mw: "Mon Sep 14"
-  tr: "Thu Sep 10"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 5
-  mw: "Wed Sep 16"
-  tr: "Tue Sep 15"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 6
-  mw: "Mon Sep 21"
-  tr: "Thu Sep 17"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 7
-  mw: "Wed Sep 23"
-  tr: "Tue Sep 22"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 8
-  mw: "Mon Sep 28"
-  tr: "Thu Sep 24"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 9
-  mw: "Wed Sep 30"
-  tr: "Tue Sep 29"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 10
-  mw: "Mon Oct 5"
-  tr: "Thu Oct 1"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 11
-  mw: "Wed Oct 7"
-  tr: "Tue Oct 6"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 12
-  mw: "Mon Oct 12"
-  tr: "Thu Oct 8"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 13
-  mw: "Wed Oct 14"
-  tr: "Tue Oct 13"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 14
-  mw: "Mon Oct 19"
-  tr: "Thu Oct 15"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 15
-  mw: "Wed Oct 21"
-  tr: "Tue Oct 20"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 16
-  mw: "Mon Oct 26"
-  tr: "Thu Oct 22"
-  topic: "**MIDTERM**"
-  reading: ""
-  due: ""
-- n: 17
-  mw: "Wed Oct 28"
-  tr: "Tue Oct 27"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 18
-  mw: "Mon Nov 2"
-  tr: "Thu Oct 29"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 19
-  mw: "Wed Nov 4"
-  tr: "Tue Nov 3"
-  topic: "TBD"
-  reading: ""
-  due: ""
-- n: 20
-  mw: "Mon Nov 9"
-  tr: "Thu Nov 5"
-  topic: "TBD"
-  reading: ""
-  due: ""
+content:
+  - "TBD"   # 1
+  - "TBD"   # 2
+  - "TBD"   # 3
+  - "TBD"   # 4
+  - "TBD"   # 5
+  - "TBD"   # 6
+  - "TBD"   # 7
+  - "TBD"   # 8
+  - "TBD"   # 9
+  - "TBD"   # 10
+  - "TBD"   # 11
+  - "TBD"   # 12
+  - "Model pitfalls"   # 13
+  - "Causal inference"   # 14
+  - "Communicating results"   # 15
+  - "Peer review workshop"   # 16
+  - "Special topics"   # 17
+  - "Project lightning round"   # 18
+
+mw:
+  - { date: "Mon Aug 31", c: 1 }
+  - { date: "Wed Sep 2", c: 2 }
+  - { date: "Wed Sep 9", c: 3 }
+  - { date: "Mon Sep 14", c: 4 }
+  - { date: "Wed Sep 16", c: 5 }
+  - { date: "Mon Sep 21", c: 6 }
+  - { date: "Wed Sep 23", c: 7 }
+  - { date: "Mon Sep 28", c: 8 }
+  - { date: "Wed Sep 30", c: 9 }
+  - { date: "Mon Oct 5", c: 10 }
+  - { date: "Wed Oct 7", c: 11 }
+  - { date: "Mon Oct 12", c: 12 }
+  - { date: "Wed Oct 14", special: "MIDTERM" }
+  - { date: "Mon Oct 19", c: 13 }
+  - { date: "Wed Oct 21", c: 14 }
+  - { date: "Mon Oct 26", special: "CLINIC" }
+  - { date: "Wed Oct 28", c: 15 }
+  - { date: "Mon Nov 2", c: 16 }
+  - { date: "Wed Nov 4", c: 17 }
+  - { date: "Mon Nov 9", c: 18 }
+
+tr:
+  - { date: "Tue Sep 1", c: 1 }
+  - { date: "Thu Sep 3", c: 2 }
+  - { date: "Tue Sep 8", c: 3 }
+  - { date: "Thu Sep 10", c: 4 }
+  - { date: "Tue Sep 15", c: 5 }
+  - { date: "Thu Sep 17", c: 6 }
+  - { date: "Tue Sep 22", c: 7 }
+  - { date: "Thu Sep 24", c: 8 }
+  - { date: "Tue Sep 29", c: 9 }
+  - { date: "Thu Oct 1", c: 10 }
+  - { date: "Tue Oct 6", c: 11 }
+  - { date: "Thu Oct 8", c: 12 }
+  - { date: "Tue Oct 13", special: "REVIEW" }
+  - { date: "Thu Oct 15", special: "MIDTERM" }
+  - { date: "Tue Oct 20", c: 13 }
+  - { date: "Thu Oct 22", c: 14 }
+  - { date: "Tue Oct 27", c: 15 }
+  - { date: "Thu Oct 29", c: 16 }
+  - { date: "Tue Nov 3", c: 17 }
+  - { date: "Thu Nov 5", c: 18 }

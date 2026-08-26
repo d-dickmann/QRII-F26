@@ -79,9 +79,13 @@ table {
   color: #fff;
 }
 
-// Show only the matching date
-#sec-mw:checked ~ .sched-table .d-tr { display: none; }
-#sec-tr:checked ~ .sched-table .d-mw { display: none; }
+// Show only the selected section's table
+.sched-mw, .sched-tr { display: none; }
+#sec-mw:checked ~ .sched-mw { display: table; }
+#sec-tr:checked ~ .sched-tr { display: table; }
+
+// Highlight the midterm row
+tr.is-exam td { background: #fff6e0; }
 
 .nowrap { white-space: nowrap; }
 
