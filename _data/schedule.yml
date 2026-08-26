@@ -4,12 +4,11 @@
 # and it updates in both section views.
 #
 # 'mw' (Section 001, Mon/Wed) and 'tr' (Sections 002 & 003, Tue/Thu) map each
-# meeting date to a content number, or to a special: MIDTERM, REVIEW, CLINIC.
+# date to a content number (c:) or to a literal label (special:).
+# Specials in use: MIDTERM, NO CLASS, TBD.
 #
 # Section 001 loses Labor Day (Mon Sep 7) and makes it up Mon Nov 9, so it runs
-# one meeting behind 002/003 for most of the term. That is why 002/003 get a
-# REVIEW slot before the midterm and 001 gets a CLINIC slot after it — the two
-# patterns cover identical examinable content.
+# one meeting behind 002/003 for most of the term.
 #
 # DATES ASSUME first day of class Mon Aug 31 2026. Verify against the academic calendar.
 
@@ -36,6 +35,7 @@ content:
 mw:
   - { date: "Mon Aug 31", c: 1 }
   - { date: "Wed Sep 2", c: 2 }
+  - { date: "Mon Sep 7", special: "NO CLASS" }
   - { date: "Wed Sep 9", c: 3 }
   - { date: "Mon Sep 14", c: 4 }
   - { date: "Wed Sep 16", c: 5 }
@@ -49,7 +49,7 @@ mw:
   - { date: "Wed Oct 14", special: "MIDTERM" }
   - { date: "Mon Oct 19", c: 13 }
   - { date: "Wed Oct 21", c: 14 }
-  - { date: "Mon Oct 26", special: "CLINIC" }
+  - { date: "Mon Oct 26", special: "TBD" }
   - { date: "Wed Oct 28", c: 15 }
   - { date: "Mon Nov 2", c: 16 }
   - { date: "Wed Nov 4", c: 17 }
@@ -68,7 +68,7 @@ tr:
   - { date: "Thu Oct 1", c: 10 }
   - { date: "Tue Oct 6", c: 11 }
   - { date: "Thu Oct 8", c: 12 }
-  - { date: "Tue Oct 13", special: "REVIEW" }
+  - { date: "Tue Oct 13", special: "TBD" }
   - { date: "Thu Oct 15", special: "MIDTERM" }
   - { date: "Tue Oct 20", c: 13 }
   - { date: "Thu Oct 22", c: 14 }

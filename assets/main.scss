@@ -87,6 +87,12 @@ table {
 // Highlight the midterm row
 tr.is-exam td { background: #fff6e0; }
 
+// Mute no-class rows so they read as gaps, not meetings
+tr.is-noclass td {
+  color: #999;
+  font-style: italic;
+}
+
 .nowrap { white-space: nowrap; }
 
 // Keyboard focus needs to be visible since the real input is hidden
