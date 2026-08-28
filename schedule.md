@@ -1,12 +1,29 @@
 ---
 layout: page
 title: Schedule
+# Flip to true to publish the meeting-by-meeting schedule below.
+# Content lives in _data/schedule.yml.
+show_schedule: false
 ---
 
 # Schedule
 
-Pick your section to see your dates. **This schedule is subject to change** — this page is authoritative.
+The meeting-by-meeting schedule — topics, readings, and due dates — will be posted here. Check back before the first week.
 
+**This page is authoritative** for the schedule once it's posted, and it is subject to change during the term.
+
+## Key dates
+
+| | |
+|---|---|
+| First day of class | 001 — Mon Aug 31 · 002 & 003 — Tue Sep 1 |
+| Labor Day — no class | Mon Sep 7 |
+| **Midterm** | **TBD** |
+| **Project due** | **Fri Nov 6, 11:59pm** — all sections |
+| Last day of class | 001 — Mon Nov 9 · 002 & 003 — Thu Nov 5 |
+| Oral exams | Week of Mon Nov 10 — scheduled individually |
+
+{% if page.show_schedule %}
 <div class="sched">
 <input type="radio" name="sec" id="sec-mw" checked>
 <input type="radio" name="sec" id="sec-tr">
@@ -46,14 +63,4 @@ Pick your section to see your dates. **This schedule is subject to change** — 
   </tbody>
 </table>
 </div>
-
-## Key dates
-
-| | |
-|---|---|
-| First day of class | 001 — Mon Aug 31 · 002 & 003 — Tue Sep 1 |
-| Labor Day — no class | Mon Sep 7 |
-| **Midterm** | **001 — Wed Oct 14 · 002 & 003 — Thu Oct 15** |
-| **Project due** | **Fri Nov 6, 11:59pm** — all sections |
-| Last day of class | 001 — Mon Nov 9 · 002 & 003 — Thu Nov 5 |
-| Oral exams | Week of Mon Nov 10 — scheduled individually |
+{% endif %}
