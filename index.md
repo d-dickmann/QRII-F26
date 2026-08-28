@@ -5,14 +5,14 @@ title: Home
 
 # Quantitative Reasoning II
 
-**INF 1220 · 3 credits · Fall 2026 · University of Austin**
+**INF 1220 · Fall 2026 · University of Austin**
 
 | | |
 |---|---|
 | **Instructor** | Dorothy Dickmann |
 | **Email** | [ddickmann@uaustin.org](mailto:ddickmann@uaustin.org) |
-| **Office Hours** | Tuesday 10:30–12:00 · Room 214 |
-| | Thursday 13:00–14:30 · Room 214 |
+| **Office Hours** | Tuesday 10:30–12:00: Room 214 |
+| | Thursday 13:00–14:30: Room 214 |
 | | Otherwise, by appointment |
 
 | Section | Meets | Classroom |
