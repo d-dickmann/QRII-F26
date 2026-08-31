@@ -23,7 +23,7 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
 {% assign readings = site.data.schedule.readings %}
 
 <table class="sched-table sched-mw">
-  <thead><tr><th>Date</th><th>Topic</th><th>Reading</th></tr></thead>
+  <thead><tr><th>Date</th><th>Topic</th><th>Reading<br><span class="th-note">to be completed before the class meeting on which it is listed</span></th></tr></thead>
   <tbody>
   {% for row in site.data.schedule.mw limit: page.mw_rows %}
     {% assign i = row.c | minus: 1 %}
@@ -37,7 +37,7 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
 </table>
 
 <table class="sched-table sched-tr">
-  <thead><tr><th>Date</th><th>Topic</th><th>Reading</th></tr></thead>
+  <thead><tr><th>Date</th><th>Topic</th><th>Reading<br><span class="th-note">to be completed before the class meeting on which it is listed</span></th></tr></thead>
   <tbody>
   {% for row in site.data.schedule.tr limit: page.tr_rows %}
     {% assign i = row.c | minus: 1 %}
@@ -50,8 +50,6 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
   </tbody>
 </table>
 </div>
-
-<p class="sched-note"><em>Readings can be found under &ldquo;Files&rdquo; on Populi.</em></p>
 
 ## Key dates
 

@@ -34,7 +34,7 @@ content:
 
 readings:
   - ""   # 1
-  - "<em>Naked Statistics</em> — Introduction, Ch 1, Ch 2 &middot; <em>The Model Thinker</em> — Ch 1"   # 2
+  - "<em>Naked Statistics</em> — Introduction, Ch 1, Ch 2<br><em>The Model Thinker</em> — Ch 1<br><span class='cell-note'>Readings can be found under &ldquo;Files&rdquo; on Populi.</span>"   # 2
   - ""   # 3
   - ""   # 4
   - ""   # 5
