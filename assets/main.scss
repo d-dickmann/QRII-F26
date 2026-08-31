@@ -93,6 +93,13 @@ tr.is-noclass td {
   font-style: italic;
 }
 
+// Small note under the schedule table
+.sched-note {
+  font-size: 0.8em;
+  color: #555;
+  margin-top: -$spacing-unit * 0.4;
+}
+
 .nowrap { white-space: nowrap; }
 
 // Keyboard focus needs to be visible since the real input is hidden

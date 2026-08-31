@@ -1,20 +1,20 @@
 # Schedule data.
 #
-# 'content' is the single source of truth for topics — edit a topic ONCE here
-# and it updates in both section views.
+# 'content' and 'readings' are the single source of truth — edit once here and
+# both section views update. Index n corresponds to c: n in the section lists.
 #
 # 'mw' (Section 001, Mon/Wed) and 'tr' (Sections 002 & 003, Tue/Thu) map each
-# date to a content number (c:) or to a literal label (special:).
+# date to a content number (c:) or a literal label (special:).
 # Specials in use: MIDTERM, NO CLASS, TBD.
 #
-# Section 001 loses Labor Day (Mon Sep 7) and makes it up Mon Nov 9, so it runs
-# one meeting behind 002/003 for most of the term.
+# HOW MUCH IS PUBLISHED is controlled by mw_rows / tr_rows in schedule.md,
+# not here. Fill topics in below ahead of time; they stay hidden until released.
 #
-# DATES ASSUME first day of class Mon Aug 31 2026. Verify against the academic calendar.
+# DATES ASSUME first day of class Mon Aug 31 2026.
 
 content:
-  - "TBD"   # 1
-  - "TBD"   # 2
+  - "Course introduction"   # 1
+  - "Data, distributions, and measurement"   # 2
   - "TBD"   # 3
   - "TBD"   # 4
   - "TBD"   # 5
@@ -31,6 +31,26 @@ content:
   - "Peer review workshop"   # 16
   - "Special topics"   # 17
   - "Project lightning round"   # 18
+
+readings:
+  - ""   # 1
+  - "<em>Naked Statistics</em> — Introduction, Ch 1, Ch 2 &middot; <em>The Model Thinker</em> — Ch 1"   # 2
+  - ""   # 3
+  - ""   # 4
+  - ""   # 5
+  - ""   # 6
+  - ""   # 7
+  - ""   # 8
+  - ""   # 9
+  - ""   # 10
+  - ""   # 11
+  - ""   # 12
+  - ""   # 13
+  - ""   # 14
+  - ""   # 15
+  - ""   # 16
+  - ""   # 17
+  - ""   # 18
 
 mw:
   - { date: "Mon Aug 31", c: 1 }
