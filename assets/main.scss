@@ -93,15 +93,18 @@ tr.is-noclass td {
   font-style: italic;
 }
 
-// Small qualifier under a column heading
-.th-note {
+// Small qualifier under a column heading.
+// Selector is `th .th-note` so it outranks the browser's default bold on <th>
+// and anything the theme sets on table headers.
+th .th-note {
   display: block;
   font-weight: normal;
   font-style: italic;
-  font-size: 0.72em;
-  line-height: 1.3;
-  color: #555;
-  margin-top: 2px;
+  font-size: 0.62em;
+  line-height: 1.35;
+  letter-spacing: 0;
+  color: #666;
+  margin-top: 3px;
 }
 
 // Small note inside a table cell
