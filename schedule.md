@@ -26,10 +26,11 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
   <thead><tr><th>Date</th><th>Topic</th><th>Reading</th></tr></thead>
   <tbody>
   {% for row in site.data.schedule.mw limit: page.mw_rows %}
+    {% assign i = row.c | minus: 1 %}
     <tr{% if row.special == "MIDTERM" %} class="is-exam"{% elsif row.special == "NO CLASS" %} class="is-noclass"{% endif %}>
       <td class="nowrap">{{ row.date }}</td>
-      <td>{% if row.special == "MIDTERM" %}<strong>MIDTERM</strong>{% elsif row.special %}{{ row.special }}{% else %}{{ content[row.c | minus: 1] }}{% endif %}</td>
-      <td>{% if row.c %}{{ readings[row.c | minus: 1] }}{% endif %}</td>
+      <td>{% if row.special == "MIDTERM" %}<strong>MIDTERM</strong>{% elsif row.special %}{{ row.special }}{% else %}{{ content[i] }}{% endif %}</td>
+      <td>{% if row.c %}{{ readings[i] }}{% endif %}</td>
     </tr>
   {% endfor %}
   </tbody>
@@ -39,10 +40,11 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
   <thead><tr><th>Date</th><th>Topic</th><th>Reading</th></tr></thead>
   <tbody>
   {% for row in site.data.schedule.tr limit: page.tr_rows %}
+    {% assign i = row.c | minus: 1 %}
     <tr{% if row.special == "MIDTERM" %} class="is-exam"{% elsif row.special == "NO CLASS" %} class="is-noclass"{% endif %}>
       <td class="nowrap">{{ row.date }}</td>
-      <td>{% if row.special == "MIDTERM" %}<strong>MIDTERM</strong>{% elsif row.special %}{{ row.special }}{% else %}{{ content[row.c | minus: 1] }}{% endif %}</td>
-      <td>{% if row.c %}{{ readings[row.c | minus: 1] }}{% endif %}</td>
+      <td>{% if row.special == "MIDTERM" %}<strong>MIDTERM</strong>{% elsif row.special %}{{ row.special }}{% else %}{{ content[i] }}{% endif %}</td>
+      <td>{% if row.c %}{{ readings[i] }}{% endif %}</td>
     </tr>
   {% endfor %}
   </tbody>
