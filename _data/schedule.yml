@@ -16,7 +16,7 @@ content:
   - "Course introduction"   # 1
   - "Data, distributions, and measurement"   # 2
   - "Probability"   # 3
-  - "TBD"   # 4
+  - "Probability"   # 4
   - "TBD"   # 5
   - "TBD"   # 6
   - "TBD"   # 7
@@ -36,7 +36,7 @@ readings:
   - ""   # 1
   - "<em>Naked Statistics</em> — Introduction, Ch 1, Ch 2<br><em>The Model Thinker</em> — Ch 1<br><span class='cell-note'>Readings can be found under &ldquo;Files&rdquo; on Populi.</span>"   # 2
   - "<em>Naked Statistics</em> — Ch 3, Ch 5, Ch 5½"   # 3
-  - ""   # 4
+  - "<em>Naked Statistics</em> — Ch 6"   # 4
   - ""   # 5
   - ""   # 6
   - ""   # 7

@@ -4,8 +4,8 @@ title: Schedule
 # How many rows of the schedule are published, per section.
 # Increase these to release more of the term. Content lives in _data/schedule.yml.
 show_schedule: true
-mw_rows: 4   # NOTE: MW list includes the Labor Day NO CLASS row, so this runs one ahead of tr_rows
-tr_rows: 3
+mw_rows: 5   # NOTE: MW list includes the Labor Day NO CLASS row, so this runs one ahead of tr_rows
+tr_rows: 4
 ---
 
 The meeting-by-meeting schedule will be posted here and updated throughout the term.
