@@ -17,8 +17,8 @@ content:
   - "Data, distributions, and measurement"   # 2
   - "Probability"   # 3
   - "Probability"   # 4
-  - "TBD"   # 5
-  - "TBD"   # 6
+  - "Probability distributions"   # 5
+  - "Sampling distributions"   # 6
   - "TBD"   # 7
   - "TBD"   # 8
   - "TBD"   # 9
@@ -37,7 +37,7 @@ readings:
   - "<em>Naked Statistics</em> — Introduction, Ch 1, Ch 2<br><em>The Model Thinker</em> — Ch 1<br><span class='cell-note'>Readings can be found under &ldquo;Files&rdquo; on Populi.</span>"   # 2
   - "<em>Naked Statistics</em> — Ch 3, Ch 5, Ch 5½"   # 3
   - "<em>Naked Statistics</em> — Ch 6"   # 4
-  - ""   # 5
+  - "None"   # 5
   - ""   # 6
   - ""   # 7
   - ""   # 8
