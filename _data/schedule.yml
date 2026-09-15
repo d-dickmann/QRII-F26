@@ -18,8 +18,8 @@ content:
   - "Probability"   # 3
   - "Probability"   # 4
   - "Probability distributions"   # 5
-  - "TBD"   # 6
-  - "Normal distribution and the CLT"   # 7
+  - "Normal distribution and the CLT"   # 6
+  - "TBD"   # 7
   - "TBD"   # 8
   - "TBD"   # 9
   - "TBD"   # 10
@@ -38,8 +38,8 @@ readings:
   - "<em>Naked Statistics</em> — Ch 3, Ch 5, Ch 5½"   # 3
   - "<em>Naked Statistics</em> — Ch 6"   # 4
   - "None"   # 5
-  - ""   # 6
-  - "None"   # 7
+  - "None"   # 6
+  - ""   # 7
   - ""   # 8
   - ""   # 9
   - ""   # 10
