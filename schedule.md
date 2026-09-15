@@ -57,6 +57,7 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
 |---|---|
 | First day of class | 001: Mon Aug 31; 002 & 003: Tue Sep 1 |
 | Labor Day — no class | Mon Sep 7 |
+| **Homework 1 due** | **Mon Sep 21, 11:59pm** — all sections |
 | **Midterm** | **TBD** |
 | **Project due** | **Fri Nov 6, 11:59pm** — all sections |
 | Last day of class | 001: Mon Nov 9; 002 & 003: Thu Nov 5 |
