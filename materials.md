@@ -7,6 +7,10 @@ Materials (supplementary readings, slide decks, lecture notes, etc.) will be mad
 
 Please obtain a copy of *Naked Statistics* by Charles Wheelan.
 
+## Using AI
+
+[Using AI for Study and Data Analysis](exercises/using-ai.pdf) applies to every homework this term. Read it before you start Homework 1.
+
 ## Other works we'll draw on
 
 Throughout the term we will read excerpts from the books below.
