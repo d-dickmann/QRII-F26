@@ -7,8 +7,6 @@ Materials (supplementary readings, slide decks, lecture notes, etc.) will be mad
 
 Please obtain a copy of *Naked Statistics* by Charles Wheelan.
 
-## Using AI
-
 [Using AI for Study and Data Analysis](exercises/using-ai.pdf)
 
 ## Other works we'll draw on
