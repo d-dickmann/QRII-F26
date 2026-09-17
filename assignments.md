@@ -11,5 +11,10 @@ Each homework has two components: a traditional written assignment and an LLM-su
 
 ## Homework 1 — due Monday, September 21, 11:59pm (all sections)
 
-- [Written problems](exercises/hw1-written.pdf)
-- LLM-supported data analysis: posted by Tuesday night. Due with the written problems.
+- [Part 1 — Written problems](exercises/hw1-written.pdf)
+- [Part 2 — Notebook and AI](exercises/hw1-lab.pdf)
+
+Turn in three things: your scanned written work, a link to your fully-run
+notebook, and a link to your study conversation. Part 2 explains how to set up
+both links. Read [Using AI for Study and Data
+Analysis](exercises/using-ai.pdf) before you start.
