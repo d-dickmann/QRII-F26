@@ -11,8 +11,7 @@ title: Home
 |---|---|
 | **Instructor** | Dorothy Dickmann |
 | **Email** | [ddickmann@uaustin.org](mailto:ddickmann@uaustin.org) |
-| **Office Hours** | Tuesday 10:30–12:00: Room 214 |
-| | Thursday 13:00–14:30: Room 214 |
+| **Office Hours** | Thursday 13:45–15:00: Room 214 |
 | | Otherwise, [by appointment](https://calendar.app.google/g6twzhuiVo9iqLkh7){:target="_blank" rel="noopener"} |
 
 | Section | Meets | Classroom |
