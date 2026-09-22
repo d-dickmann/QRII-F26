@@ -4,8 +4,10 @@ title: Schedule
 # How many rows of the schedule are published, per section.
 # Increase these to release more of the term. Content lives in _data/schedule.yml.
 show_schedule: true
-mw_rows: 7   # NOTE: MW list includes the Labor Day NO CLASS row, so this runs one ahead of tr_rows
-tr_rows: 6
+# The MW list includes the Labor Day NO CLASS row, so equal counts leave MW one
+# meeting behind TR. At 9 / 9: MW published through Mon Sep 28, TR through Tue Sep 29.
+mw_rows: 9
+tr_rows: 9
 ---
 
 The meeting-by-meeting schedule will be posted here and updated throughout the term.
@@ -30,7 +32,7 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
     <tr{% if row.special == "MIDTERM" %} class="is-exam"{% elsif row.special == "NO CLASS" %} class="is-noclass"{% endif %}>
       <td class="nowrap">{{ row.date }}</td>
       <td>{% if row.special == "MIDTERM" %}<strong>MIDTERM</strong>{% elsif row.special %}{{ row.special }}{% else %}{{ content[i] }}{% endif %}</td>
-      <td>{% if row.c %}{{ readings[i] }}{% endif %}</td>
+      <td>{% if row.reading %}{{ row.reading }}{% elsif row.c %}{{ readings[i] }}{% endif %}</td>
     </tr>
   {% endfor %}
   </tbody>
@@ -44,7 +46,7 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
     <tr{% if row.special == "MIDTERM" %} class="is-exam"{% elsif row.special == "NO CLASS" %} class="is-noclass"{% endif %}>
       <td class="nowrap">{{ row.date }}</td>
       <td>{% if row.special == "MIDTERM" %}<strong>MIDTERM</strong>{% elsif row.special %}{{ row.special }}{% else %}{{ content[i] }}{% endif %}</td>
-      <td>{% if row.c %}{{ readings[i] }}{% endif %}</td>
+      <td>{% if row.reading %}{{ row.reading }}{% elsif row.c %}{{ readings[i] }}{% endif %}</td>
     </tr>
   {% endfor %}
   </tbody>

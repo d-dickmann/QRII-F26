@@ -7,6 +7,10 @@
 # date to a content number (c:) or a literal label (special:).
 # Specials in use: MIDTERM, NO CLASS, TBD.
 #
+# A row may also carry its own 'reading:', which overrides readings[c] for that
+# one date. Use it when a reading is due at different meeting numbers in the two
+# sections — e.g. the first meeting of a given week is c:8 for MW but c:9 for TR.
+#
 # HOW MUCH IS PUBLISHED is controlled by mw_rows / tr_rows in schedule.md,
 # not here. Fill topics in below ahead of time; they stay hidden until released.
 #
@@ -19,9 +23,9 @@ content:
   - "Probability"   # 4
   - "Probability distributions"   # 5
   - "Normal distribution and the CLT"   # 6
-  - "TBD"   # 7
-  - "TBD"   # 8
-  - "TBD"   # 9
+  - "Intervals and inference"   # 7
+  - "Regression"   # 8
+  - "Regression"   # 9
   - "TBD"   # 10
   - "TBD"   # 11
   - "TBD"   # 12
@@ -39,8 +43,10 @@ readings:
   - "<em>Naked Statistics</em> — Ch 6"   # 4
   - "None"   # 5
   - "None"   # 6
-  - ""   # 7
-  - ""   # 8
+  - "None"   # 7
+  # NS Ch 7-9 is not listed here. It falls on Mon Sep 28 for MW (meeting 8) but
+  # Tue Sep 29 for TR (meeting 9), so it rides on those two rows' own 'reading:'.
+  - "None"   # 8
   - ""   # 9
   - ""   # 10
   - ""   # 11
@@ -61,7 +67,7 @@ mw:
   - { date: "Wed Sep 16", c: 5 }
   - { date: "Mon Sep 21", c: 6 }
   - { date: "Wed Sep 23", c: 7 }
-  - { date: "Mon Sep 28", c: 8 }
+  - { date: "Mon Sep 28", c: 8, reading: "<em>Naked Statistics</em> — Ch 7, Ch 8, Ch 9" }
   - { date: "Wed Sep 30", c: 9 }
   - { date: "Mon Oct 5", c: 10 }
   - { date: "Wed Oct 7", c: 11 }
@@ -84,7 +90,7 @@ tr:
   - { date: "Thu Sep 17", c: 6 }
   - { date: "Tue Sep 22", c: 7 }
   - { date: "Thu Sep 24", c: 8 }
-  - { date: "Tue Sep 29", c: 9 }
+  - { date: "Tue Sep 29", c: 9, reading: "<em>Naked Statistics</em> — Ch 7, Ch 8, Ch 9" }
   - { date: "Thu Oct 1", c: 10 }
   - { date: "Tue Oct 6", c: 11 }
   - { date: "Thu Oct 8", c: 12 }
