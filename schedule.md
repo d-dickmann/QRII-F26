@@ -5,9 +5,9 @@ title: Schedule
 # Increase these to release more of the term. Content lives in _data/schedule.yml.
 show_schedule: true
 # The MW list includes the Labor Day NO CLASS row, so equal counts leave MW one
-# meeting behind TR. At 9 / 9: MW published through Mon Sep 28, TR through Tue Sep 29.
-mw_rows: 9
-tr_rows: 9
+# meeting behind TR. At 10 / 10: MW published through Wed Sep 30, TR through Thu Oct 1.
+mw_rows: 10
+tr_rows: 10
 ---
 
 The meeting-by-meeting schedule will be posted here and updated throughout the term.
@@ -60,7 +60,7 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
 | First day of class | 001: Mon Aug 31; 002 & 003: Tue Sep 1 |
 | Labor Day — no class | Mon Sep 7 |
 | **Homework 1 due** | **Mon Sep 21, 11:59pm** — all sections |
-| **Midterm** | **TBD** |
+| **Midterm** | **001: Mon Oct 12; 002 & 003: Tue Oct 13** |
 | **Project due** | **Fri Nov 6, 11:59pm** — all sections |
 | Last day of class | 001: Mon Nov 9; 002 & 003: Thu Nov 5 |
 | Oral Exams/Project Interviews | Week of Mon Nov 10: scheduled individually |

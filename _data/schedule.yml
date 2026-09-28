@@ -26,7 +26,7 @@ content:
   - "Intervals and inference"   # 7
   - "Regression"   # 8
   - "Regression"   # 9
-  - "TBD"   # 10
+  - "Regression"   # 10
   - "TBD"   # 11
   - "TBD"   # 12
   - "Model pitfalls"   # 13
@@ -47,6 +47,8 @@ readings:
   # NS Ch 7-9 is not listed here. It falls on Mon Sep 28 for MW (meeting 8) but
   # Tue Sep 29 for TR (meeting 9), so it rides on those two rows' own 'reading:'.
   - "None"   # 8
+  # MT Distributions and Linear Models falls on Wed Sep 30 for MW (meeting 9)
+  # but Thu Oct 1 for TR (meeting 10), so it rides on those rows' own 'reading:'.
   - ""   # 9
   - ""   # 10
   - ""   # 11
@@ -68,7 +70,7 @@ mw:
   - { date: "Mon Sep 21", c: 6 }
   - { date: "Wed Sep 23", c: 7 }
   - { date: "Mon Sep 28", c: 8, reading: "<em>Naked Statistics</em> — Ch 7, Ch 8, Ch 9" }
-  - { date: "Wed Sep 30", c: 9 }
+  - { date: "Wed Sep 30", c: 9, reading: "<em>The Model Thinker</em> — Distributions, Linear Models<br><span class='cell-note'>Readings can be found under &ldquo;Files&rdquo; on Populi.</span>" }
   - { date: "Mon Oct 5", c: 10 }
   - { date: "Wed Oct 7", c: 11 }
   - { date: "Mon Oct 12", c: 12 }
@@ -91,7 +93,7 @@ tr:
   - { date: "Tue Sep 22", c: 7 }
   - { date: "Thu Sep 24", c: 8 }
   - { date: "Tue Sep 29", c: 9, reading: "<em>Naked Statistics</em> — Ch 7, Ch 8, Ch 9" }
-  - { date: "Thu Oct 1", c: 10 }
+  - { date: "Thu Oct 1", c: 10, reading: "<em>The Model Thinker</em> — Distributions, Linear Models<br><span class='cell-note'>Readings can be found under &ldquo;Files&rdquo; on Populi.</span>" }
   - { date: "Tue Oct 6", c: 11 }
   - { date: "Thu Oct 8", c: 12 }
   - { date: "Tue Oct 13", special: "TBD" }
