@@ -5,9 +5,9 @@ title: Schedule
 # Increase these to release more of the term. Content lives in _data/schedule.yml.
 show_schedule: true
 # The MW list includes the Labor Day NO CLASS row, so equal counts leave MW one
-# meeting behind TR. At 10 / 10: MW published through Wed Sep 30, TR through Thu Oct 1.
-mw_rows: 10
-tr_rows: 10
+# meeting behind TR. At 14 / 14: MW published through Wed Oct 14, TR through Thu Oct 15.
+mw_rows: 14
+tr_rows: 14
 ---
 
 The meeting-by-meeting schedule will be posted here and updated throughout the term.
@@ -31,7 +31,7 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
     {% assign i = row.c | minus: 1 %}
     <tr{% if row.special == "MIDTERM" %} class="is-exam"{% elsif row.special == "NO CLASS" %} class="is-noclass"{% endif %}>
       <td class="nowrap">{{ row.date }}</td>
-      <td>{% if row.special == "MIDTERM" %}<strong>MIDTERM</strong>{% elsif row.special %}{{ row.special }}{% else %}{{ content[i] }}{% endif %}</td>
+      <td>{% if row.special == "MIDTERM" %}<strong>MIDTERM</strong>{% elsif row.special %}{{ row.special }}{% else %}{{ content[i] }}{% endif %}{% if row.due %}<br><strong class="due">{{ row.due }}</strong>{% endif %}</td>
       <td>{% if row.reading %}{{ row.reading }}{% elsif row.c %}{{ readings[i] }}{% endif %}</td>
     </tr>
   {% endfor %}
@@ -45,7 +45,7 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
     {% assign i = row.c | minus: 1 %}
     <tr{% if row.special == "MIDTERM" %} class="is-exam"{% elsif row.special == "NO CLASS" %} class="is-noclass"{% endif %}>
       <td class="nowrap">{{ row.date }}</td>
-      <td>{% if row.special == "MIDTERM" %}<strong>MIDTERM</strong>{% elsif row.special %}{{ row.special }}{% else %}{{ content[i] }}{% endif %}</td>
+      <td>{% if row.special == "MIDTERM" %}<strong>MIDTERM</strong>{% elsif row.special %}{{ row.special }}{% else %}{{ content[i] }}{% endif %}{% if row.due %}<br><strong class="due">{{ row.due }}</strong>{% endif %}</td>
       <td>{% if row.reading %}{{ row.reading }}{% elsif row.c %}{{ readings[i] }}{% endif %}</td>
     </tr>
   {% endfor %}
@@ -60,6 +60,7 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
 | First day of class | 001: Mon Aug 31; 002 & 003: Tue Sep 1 |
 | Labor Day — no class | Mon Sep 7 |
 | **Homework 1 due** | **Mon Sep 21, 11:59pm** — all sections |
+| **Homework 2 due** | **Wed Oct 7, 11:59pm** — all sections |
 | **Midterm** | **001: Mon Oct 12; 002 & 003: Tue Oct 13** |
 | **Project due** | **Fri Nov 6, 11:59pm** — all sections |
 | Last day of class | 001: Mon Nov 9; 002 & 003: Thu Nov 5 |

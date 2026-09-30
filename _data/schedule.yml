@@ -7,6 +7,8 @@
 # date to a content number (c:) or a literal label (special:).
 # Specials in use: MIDTERM, NO CLASS, TBD.
 #
+# A row may carry 'due:', a note shown under the topic (e.g. a homework due date).
+#
 # A row may also carry its own 'reading:', which overrides readings[c] for that
 # one date. Use it when a reading is due at different meeting numbers in the two
 # sections — e.g. the first meeting of a given week is c:8 for MW but c:9 for TR.
@@ -71,10 +73,10 @@ mw:
   - { date: "Wed Sep 23", c: 7 }
   - { date: "Mon Sep 28", c: 8, reading: "<em>Naked Statistics</em> — Ch 7, Ch 8, Ch 9" }
   - { date: "Wed Sep 30", c: 9, reading: "<em>The Model Thinker</em> — Distributions, Linear Models<br><span class='cell-note'>Readings can be found under &ldquo;Files&rdquo; on Populi.</span>" }
-  - { date: "Mon Oct 5", c: 10 }
-  - { date: "Wed Oct 7", c: 11 }
-  - { date: "Mon Oct 12", c: 12 }
-  - { date: "Wed Oct 14", special: "MIDTERM" }
+  - { date: "Mon Oct 5", c: 10, reading: "<em>Naked Statistics</em> — Ch 11" }
+  - { date: "Wed Oct 7", c: 11, reading: "None", due: "Homework 2 due today, 11:59pm" }
+  - { date: "Mon Oct 12", special: "MIDTERM" }
+  - { date: "Wed Oct 14", c: 12, reading: "None" }
   - { date: "Mon Oct 19", c: 13 }
   - { date: "Wed Oct 21", c: 14 }
   - { date: "Mon Oct 26", special: "TBD" }
@@ -94,10 +96,12 @@ tr:
   - { date: "Thu Sep 24", c: 8 }
   - { date: "Tue Sep 29", c: 9, reading: "<em>Naked Statistics</em> — Ch 7, Ch 8, Ch 9" }
   - { date: "Thu Oct 1", c: 10, reading: "<em>The Model Thinker</em> — Distributions, Linear Models<br><span class='cell-note'>Readings can be found under &ldquo;Files&rdquo; on Populi.</span>" }
-  - { date: "Tue Oct 6", c: 11 }
-  - { date: "Thu Oct 8", c: 12 }
-  - { date: "Tue Oct 13", special: "TBD" }
-  - { date: "Thu Oct 15", special: "MIDTERM" }
+  - { date: "Tue Oct 6", c: 11, reading: "<em>Naked Statistics</em> — Ch 11", due: "Homework 2 due Wed Oct 7, 11:59pm" }
+  - { date: "Thu Oct 8", c: 12, reading: "None" }
+  - { date: "Tue Oct 13", special: "MIDTERM" }
+  - { date: "Thu Oct 15", c: 13, reading: "None" }
+  # Rows below are unpublished. From here the TR meeting numbers (c:) still
+  # follow the old plan and need renumbering when the second half is planned.
   - { date: "Tue Oct 20", c: 13 }
   - { date: "Thu Oct 22", c: 14 }
   - { date: "Tue Oct 27", c: 15 }
