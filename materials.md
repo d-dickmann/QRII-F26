@@ -28,4 +28,8 @@ We will also read individual studies, articles, and reports, posted alongside th
 ## Slides
 
 - [Conditional Probability & Expected Value](slides/conditional-probability.pdf)
+- [Simple Linear Regression](slides/simple-regression.pdf)
 
+## Handouts
+
+- [Comparing and Interpreting Models](exercises/comparing-models.pdf) (Lesson 8)
