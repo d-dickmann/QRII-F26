@@ -29,8 +29,8 @@ content:
   - "Regression"   # 8
   - "Regression"   # 9
   - "Regression"   # 10
-  - "TBD"   # 11
-  - "TBD"   # 12
+  - "Regression"   # 11
+  - "Consuming research"   # 12
   - "Model pitfalls"   # 13
   - "Causal inference"   # 14
   - "Communicating results"   # 15
