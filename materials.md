@@ -34,6 +34,7 @@ We will also read individual studies, articles, and reports, posted alongside th
 - [Conditional Probability & Expected Value](slides/conditional-probability.pdf)
 - [Simple Linear Regression](slides/simple-regression.pdf)
 - [Multiple Regression](slides/multiple-regression.pdf)
+- [Controls, Fixed Effects, and Causality](slides/controls-and-fixed-effects.pdf)
 
 ## Handouts
 
