@@ -25,6 +25,10 @@ We will also read individual studies, articles, and reports, posted alongside th
 
 [Using AI for Study and Data Analysis](exercises/using-ai.pdf)
 
+## Midterm
+
+[Midterm Study Guide](exercises/midterm-study-guide.pdf) — covers the course opening through controls and fixed effects.
+
 ## Slides
 
 - [Conditional Probability & Expected Value](slides/conditional-probability.pdf)
