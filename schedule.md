@@ -61,7 +61,8 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
 | Labor Day — no class | Mon Sep 7 |
 | **Homework 1 due** | **Mon Sep 21, 11:59pm** — all sections |
 | **Homework 2 due** | **Wed Oct 7, 11:59pm** — all sections |
+| **Homework 3 due** | **Mon Oct 19, 11:59pm** — all sections |
 | **Midterm** | **001: Mon Oct 12; 002 & 003: Tue Oct 13** |
-| **Project due** | **Fri Nov 6, 11:59pm** — all sections |
+| **Project due** | **Mon Nov 9, 11:59pm** — all sections |
 | Last day of class | 001: Mon Nov 9; 002 & 003: Thu Nov 5 |
 | Oral Exams/Project Interviews | Week of Mon Nov 10: scheduled individually |

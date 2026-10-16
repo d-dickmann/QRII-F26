@@ -7,7 +7,21 @@ title: Assignments
 
 Submit homework to Populi by 11:59PM on the date listed.
 
-Each homework has two components: a traditional written assignment and an LLM-supported data analysis.
+Homework 1 and 2 each had two components: a traditional written assignment and an
+LLM-supported data analysis. Homework 3, 4, and 5 build the final research project.
+
+## Final project
+
+- [Project briefing](exercises/project-brief.pdf) — what you are building, the
+  deliverables, and the dates. Read this before Homework 3.
+
+## Homework 3 — due Monday, October 19, 11:59pm (all sections)
+
+- [Assignment](exercises/hw3.pdf)
+- [Worksheet](exercises/hw3-worksheet.docx)
+
+Turn in one thing: the completed worksheet, as an edited `.docx` or `.pdf`. Fill
+in the worksheet itself rather than retyping it.
 
 ## Homework 2 — due Wednesday, October 7, 11:59pm (all sections)
 
