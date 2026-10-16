@@ -12,16 +12,14 @@ LLM-supported data analysis. Homework 3, 4, and 5 build the final research proje
 
 ## Final project
 
-- [Project briefing](exercises/project-brief.pdf) — what you are building, the
-  deliverables, and the dates. Read this before Homework 3.
+- [Project briefing](exercises/project-brief.pdf) — Read this first!
 
 ## Homework 3 — due Monday, October 19, 11:59pm (all sections)
 
 - [Assignment](exercises/hw3.pdf)
 - [Worksheet](exercises/hw3-worksheet.docx)
 
-Turn in one thing: the completed worksheet, as an edited `.docx` or `.pdf`. Fill
-in the worksheet itself rather than retyping it.
+Turn in one thing: the completed worksheet, as an edited `.docx` or `.pdf`.
 
 ## Homework 2 — due Wednesday, October 7, 11:59pm (all sections)
 
