@@ -5,13 +5,18 @@
 #
 # 'mw' (Section 001, Mon/Wed) and 'tr' (Sections 002 & 003, Tue/Thu) map each
 # date to a content number (c:) or a literal label (special:).
-# Specials in use: MIDTERM, NO CLASS, TBD.
+# Specials in use: MIDTERM, NO CLASS.
 #
 # A row may carry 'due:', a note shown under the topic (e.g. a homework due date).
 #
 # A row may also carry its own 'reading:', which overrides readings[c] for that
 # one date. Use it when a reading is due at different meeting numbers in the two
 # sections — e.g. the first meeting of a given week is c:8 for MW but c:9 for TR.
+#
+# Through the midterm, 002/003 run one content number ahead of 001, because they
+# never lost Labor Day. From Wed Oct 14 (001) and Thu Oct 15 (002/003) the two
+# sections share content numbers: 001 has one meeting more and spends it on a
+# second day of presentations.
 #
 # HOW MUCH IS PUBLISHED is controlled by mw_rows / tr_rows in schedule.md,
 # not here. Fill topics in below ahead of time; they stay hidden until released.
@@ -30,13 +35,12 @@ content:
   - "Regression"   # 9
   - "Regression"   # 10
   - "Regression"   # 11
-  - "Consuming research"   # 12
-  - "TBD"   # 13
-  - "Causal inference"   # 14
-  - "Communicating results"   # 15
-  - "Peer review workshop"   # 16
-  - "Special topics"   # 17
-  - "Project lightning round"   # 18
+  - "Regression"   # 12
+  - "Midterm review"   # 13
+  - "Data visualization"   # 14
+  - "Project work day"   # 15
+  - "Peer review"   # 16
+  - "Presentations"   # 17
 
 readings:
   - ""   # 1
@@ -60,7 +64,6 @@ readings:
   - ""   # 15
   - ""   # 16
   - ""   # 17
-  - ""   # 18
 
 mw:
   - { date: "Mon Aug 31", c: 1 }
@@ -77,13 +80,13 @@ mw:
   - { date: "Wed Oct 7", c: 11, reading: "None", due: "Homework 2 due today, 11:59pm" }
   - { date: "Mon Oct 12", special: "MIDTERM" }
   - { date: "Wed Oct 14", c: 12, reading: "None" }
-  - { date: "Mon Oct 19", c: 13 }
+  - { date: "Mon Oct 19", c: 13, due: "Homework 3 due today, 11:59pm" }
   - { date: "Wed Oct 21", c: 14 }
-  - { date: "Mon Oct 26", special: "TBD" }
-  - { date: "Wed Oct 28", c: 15 }
-  - { date: "Mon Nov 2", c: 16 }
+  - { date: "Mon Oct 26", c: 14 }
+  - { date: "Wed Oct 28", c: 15, due: "Homework 4 due Sun Nov 1, 11:59pm" }
+  - { date: "Mon Nov 2", c: 16, due: "Homework 5 due Wed Nov 4, 11:59pm" }
   - { date: "Wed Nov 4", c: 17 }
-  - { date: "Mon Nov 9", c: 18 }
+  - { date: "Mon Nov 9", c: 17, due: "Report, notebook, and slide due today, 11:59pm" }
 
 tr:
   - { date: "Tue Sep 1", c: 1 }
@@ -99,12 +102,10 @@ tr:
   - { date: "Tue Oct 6", c: 11, reading: "<em>Naked Statistics</em> — Ch 11", due: "Homework 2 due Wed Oct 7, 11:59pm" }
   - { date: "Thu Oct 8", c: 12, reading: "None" }
   - { date: "Tue Oct 13", special: "MIDTERM" }
-  - { date: "Thu Oct 15", c: 13, reading: "None" }
-  # Rows below are unpublished. From here the TR meeting numbers (c:) still
-  # follow the old plan and need renumbering when the second half is planned.
+  - { date: "Thu Oct 15", c: 12, reading: "None", due: "Homework 3 due Mon Oct 19, 11:59pm" }
   - { date: "Tue Oct 20", c: 13 }
   - { date: "Thu Oct 22", c: 14 }
-  - { date: "Tue Oct 27", c: 15 }
-  - { date: "Thu Oct 29", c: 16 }
-  - { date: "Tue Nov 3", c: 17 }
-  - { date: "Thu Nov 5", c: 18 }
+  - { date: "Tue Oct 27", c: 14 }
+  - { date: "Thu Oct 29", c: 15, due: "Homework 4 due Sun Nov 1, 11:59pm" }
+  - { date: "Tue Nov 3", c: 16, due: "Homework 5 due Wed Nov 4, 11:59pm" }
+  - { date: "Thu Nov 5", c: 17, due: "Report, notebook, and slide due Mon Nov 9, 11:59pm" }

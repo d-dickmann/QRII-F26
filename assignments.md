@@ -14,6 +14,15 @@ LLM-supported data analysis. Homework 3, 4, and 5 build the final research proje
 
 - [Project briefing](exercises/project-brief.pdf) — Read this first!
 
+## Homework 5 — due Wednesday, November 4, 11:59pm (all sections)
+
+Two peer reviews of classmates' drafts. Details in class.
+
+## Homework 4 — due Sunday, November 1, 11:59pm (all sections)
+
+A draft of your project. It does not have to be a complete draft: turn in
+whatever you have, and your classmates will read it and give you feedback.
+
 ## Homework 3 — due Monday, October 19, 11:59pm (all sections)
 
 - [Assignment](exercises/hw3.pdf)

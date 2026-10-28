@@ -4,10 +4,10 @@ title: Schedule
 # How many rows of the schedule are published, per section.
 # Increase these to release more of the term. Content lives in _data/schedule.yml.
 show_schedule: true
-# The MW list includes the Labor Day NO CLASS row, so equal counts leave MW one
-# meeting behind TR. At 14 / 14: MW published through Wed Oct 14, TR through Thu Oct 15.
-mw_rows: 14
-tr_rows: 14
+# The MW list includes the Labor Day NO CLASS row and 001's second presentations
+# day, so its count runs one above TR's. At 21 / 20 the whole term is published.
+mw_rows: 21
+tr_rows: 20
 ---
 
 The meeting-by-meeting schedule will be posted here and updated throughout the term.
@@ -62,6 +62,8 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
 | **Homework 1 due** | **Mon Sep 21, 11:59pm** — all sections |
 | **Homework 2 due** | **Wed Oct 7, 11:59pm** — all sections |
 | **Homework 3 due** | **Mon Oct 19, 11:59pm** — all sections |
+| **Homework 4 due** | **Sun Nov 1, 11:59pm** — all sections |
+| **Homework 5 due** | **Wed Nov 4, 11:59pm** — all sections |
 | **Midterm** | **001: Mon Oct 12; 002 & 003: Tue Oct 13** |
 | **Project due** | **Mon Nov 9, 11:59pm** — all sections |
 | Last day of class | 001: Mon Nov 9; 002 & 003: Thu Nov 5 |
