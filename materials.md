@@ -25,6 +25,10 @@ We will also read individual studies, articles, and reports, posted alongside th
 
 [Using AI for Study and Data Analysis](exercises/using-ai.pdf)
 
+## Python and Colab
+
+[Importing a CSV into Colab](https://colab.research.google.com/drive/1NW-DwSjYrywoE49jPaN4fIi82Mx9muD_){:target="_blank" rel="noopener"} — how to get your own data file into a notebook.
+
 ## Midterm
 
 [Midterm Study Guide](exercises/midterm-study-guide.pdf) — covers the course opening through controls and fixed effects.
@@ -35,6 +39,7 @@ We will also read individual studies, articles, and reports, posted alongside th
 - [Simple Linear Regression](slides/simple-regression.pdf)
 - [Multiple Regression](slides/multiple-regression.pdf)
 - [Controls, Fixed Effects, and Causality](slides/controls-and-fixed-effects.pdf)
+- [Data Visualization](slides/data-visualization.pdf)
 
 ## Handouts
 
