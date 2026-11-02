@@ -13,6 +13,13 @@ LLM-supported data analysis. Homework 3, 4, and 5 build the final research proje
 ## Final project
 
 - [Project briefing](exercises/project-brief.pdf) — Read this first!
+- [The rest of the term](exercises/rest-of-term.pdf) — every remaining date and
+  deliverable, on one page
+- [The lightning round](exercises/lightning-round.pdf) — the presentation format
+- [Slide template](exercises/slide-template.pptx) — the one slide you present from
+- Deliverable guidance — to come. It will set out what the report contains section
+  by section, how to build your regression table, and the rules for tables and
+  figures.
 
 ## Homework 5 — due Wednesday, November 4, 11:59pm (all sections)
 

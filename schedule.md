@@ -66,5 +66,7 @@ The meeting-by-meeting schedule will be posted here and updated throughout the t
 | **Homework 5 due** | **Wed Nov 4, 11:59pm** — all sections |
 | **Midterm** | **001: Mon Oct 12; 002 & 003: Tue Oct 13** |
 | **Project due** | **Mon Nov 9, 11:59pm** — all sections |
+| Presentations | 001: Wed Nov 4 and Mon Nov 9; 002 & 003: Thu Nov 5 |
+| **Presentation slide due** | **8:00am the morning you present** — all sections |
 | Last day of class | 001: Mon Nov 9; 002 & 003: Thu Nov 5 |
 | Oral Exams/Project Interviews | Week of Mon Nov 10: scheduled individually |

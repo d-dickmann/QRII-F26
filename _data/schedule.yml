@@ -85,8 +85,8 @@ mw:
   - { date: "Mon Oct 26", c: 14 }
   - { date: "Wed Oct 28", c: 15, due: "Homework 4 due Sun Nov 1, 11:59pm" }
   - { date: "Mon Nov 2", c: 16, due: "Homework 5 due Wed Nov 4, 11:59pm" }
-  - { date: "Wed Nov 4", c: 17 }
-  - { date: "Mon Nov 9", c: 17, due: "Report, notebook, and slide due today, 11:59pm" }
+  - { date: "Wed Nov 4", c: 17, due: "Slide due 8:00am if you present today" }
+  - { date: "Mon Nov 9", c: 17, due: "Slide due 8:00am. Report and notebook due today, 11:59pm" }
 
 tr:
   - { date: "Tue Sep 1", c: 1 }
@@ -108,4 +108,4 @@ tr:
   - { date: "Tue Oct 27", c: 14 }
   - { date: "Thu Oct 29", c: 15, due: "Homework 4 due Sun Nov 1, 11:59pm" }
   - { date: "Tue Nov 3", c: 16, due: "Homework 5 due Wed Nov 4, 11:59pm" }
-  - { date: "Thu Nov 5", c: 17, due: "Report, notebook, and slide due Mon Nov 9, 11:59pm" }
+  - { date: "Thu Nov 5", c: 17, due: "Slide due 8:00am today. Report and notebook due Mon Nov 9, 11:59pm" }
