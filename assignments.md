@@ -13,10 +13,12 @@ LLM-supported data analysis. Homework 3, 4, and 5 build the final research proje
 ## Final project
 
 - [Project briefing](exercises/project-brief.pdf) — Read this first!
-- [Slide template](exercises/slide-template.pptx) — the one slide you present from
-- Deliverable guidance — to come. It will set out what the report contains section
-  by section, how to build your regression table, and the rules for tables and
-  figures.
+- [Slide template](exercises/slide-template.pptx) — use this slide template for
+  your presentation. Submit to Populi by 08:00 the day of your presentation. I
+  will compile all slides into a single deck for class.
+- Deliverable guidance — to come after peer review. It will set out expected
+  report contents more clearly, how to format your regression table(s), and other
+  formatting guidelines.
 
 ## Homework 5 — due Wednesday, November 4, 11:59pm (all sections)
 
