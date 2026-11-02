@@ -13,6 +13,8 @@ LLM-supported data analysis. Homework 3, 4, and 5 build the final research proje
 ## Final project
 
 - [Project briefing](exercises/project-brief.pdf) — Read this first!
+- [Presentation guidance](exercises/presentation-guidance.pdf) — when your
+  section presents, what goes on your slide, and how long you have
 - [Slide template](exercises/slide-template.pptx) — use this slide template for
   your presentation. Submit to Populi by 08:00 the day of your presentation. I
   will compile all slides into a single deck for class.
