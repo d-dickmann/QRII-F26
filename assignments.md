@@ -20,6 +20,7 @@ LLM-supported data analysis. Homework 3, 4, and 5 build the final research proje
 - Deliverable guidance — to come after peer review. It will set out expected
   report contents in more detail, how to format your regression table(s), and other
   formatting guidelines.
+- Oral exam guidance — to come after peer review.
 
 ## Homework 5 — due Wednesday, November 4, 11:59pm (all sections)
 
