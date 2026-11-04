@@ -17,9 +17,9 @@ LLM-supported data analysis. Homework 3, 4, and 5 build the final research proje
 - [Slide template](exercises/slide-template.pptx) — use this slide template for
   your presentation. Submit to Populi by 08:00 the day of your presentation. I
   will compile all slides into a single deck for class.
-- Deliverable guidance — to come after peer review. It will set out expected
-  report contents in more detail, how to format your regression table(s), and other
-  formatting guidelines.
+- [Project deliverable guidelines](exercises/project-deliverable-guidelines.pdf) —
+  expected report contents, how to format your regression table(s), and other
+  formatting guidelines. Links to a project helper notebook with example code.
 - Oral exam guidance — to come after peer review.
 
 ## Homework 5 — due Wednesday, November 4, 11:59pm (all sections)
