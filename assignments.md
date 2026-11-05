@@ -20,6 +20,7 @@ LLM-supported data analysis. Homework 3, 4, and 5 build the final research proje
 - [Project deliverable guidelines](exercises/project-deliverable-guidelines.pdf) —
   expected report contents, how to format your regression table(s), and other
   formatting guidelines. Links to a project helper notebook with example code.
+- [HW 3 feedback](exercises/hw3-feedback.pdf)
 - Oral exam guidance — to come after peer review.
 
 ## Homework 5 — due Wednesday, November 4, 11:59pm (all sections)
